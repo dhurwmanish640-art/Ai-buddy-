@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>AI Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="logo">🤖</div>
+      <div>
+        <h1>AI Buddy</h1>
+        <p>आपका स्मार्ट चैट साथी</p>
+      </div>
+    </header>
+
+    <section id="chat" class="chat">
+      <div class="message bot">
+        नमस्ते! मैं AI Buddy हूँ। आप मुझसे हिंदी या English में बात कर सकते हैं। 😊
+      </div>
+    </section>
+
+    <div class="typing" id="typing">AI Buddy लिख रहा है...</div>
+
+    <form id="chatForm" class="input-area">
+      <input id="userInput" type="text" placeholder="अपना सवाल लिखें..." autocomplete="off" required>
+      <button type="submit">भेजें</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
